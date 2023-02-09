@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Registration</title>
+  </head>
+  <body style="padding-top: 5%; padding-left: 10%; padding-right: 10%">
+    <form>
+      <fieldset>
+      <table>
+        <legend>Log in information:</legend>
+          <tr>
+            <td>Username: </td>
+            <td><input type="text" id="username"></td>
+          </tr>
+          <tr>
+            <td>Password: </td>
+            <td><input type="password" id="password"></td>
+          </tr>
+      </table>
+      </fieldset>
+      <fieldset>
+        <table>
+          <legend>Personal information:</legend>
+          <tr>
+            <td>Position:</td>
+            <td>
+              <select name="position" id="position">
+                <option value="Engineer">Engineer</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Lawyer">Lawyer</option>
+                <option value="Accountant">Accountant</option>
+              </select></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td><input type="radio" id="male" name="gender"> <label for="male">Male</label>
+              <input type="radio" id="female" name="gender"><label for="female">Female</label> </td>
+          </tr>
+          <tr>
+            <td> Contact preference</td>
+            <td><input type="checkbox" id="email"><label for="email">Email</label><br>
+              <input type="checkbox" id="phone"><label for="phone">Phone</label>
+          </tr>
+          <tr>
+            <td>Picture:</td>
+            <td><input type="file" id="picture"></td>
+          </tr>
+          <tr>
+            <td>Date of birth:</td>
+            <td><input type="date" id="birthday"></td>
+          </tr>
+        </table>
+      </fieldset>
+      <input type="submit" style="margin: 5px">
+    </form>
+  </body>
+</html>
